@@ -5,3 +5,5 @@
 5 cat demo.txt | grep -i línia
 6 mkdir prova - cp demo.txt prova/ - cp demo.txt prova/demo2.txt - grep -ri línia
 7 grep 'línia\|blanc' demo.txt
+8 grep 'Línia\|Totes' demo.txt
+9 cat demo.txt | grep línia | wc -l
