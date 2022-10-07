@@ -7,3 +7,4 @@
 7 grep 'línia\|blanc' demo.txt
 8 grep 'Línia\|Totes' demo.txt
 9 cat demo.txt | grep línia | wc -l
+10 grep -r -n línia
